@@ -1,0 +1,36 @@
+body {
+    font-family: 'Goldman', cursive;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    width: 25%;
+    height: 100%;
+    margin: auto;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #75fb8c;
+    font-weight: 400;
+    font-size: 30px;
+    border: 2px solid #75fb8c;
+}
+
+.button:hover {
+    color: #387e3b;
+    border: 2px solid #387e3b;
+    cursor: pointer;
+}

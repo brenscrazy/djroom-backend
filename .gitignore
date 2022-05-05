@@ -1,0 +1,10 @@
+/.idea/
+
+/djroom_client/.idea/
+/djroom_client/node_modules/
+/djroom_client/.env
+/djroom_client/package-lock.json
+
+/djroom_server/.idea/
+/djroom_server/target/
+/djroom_server/*.iml

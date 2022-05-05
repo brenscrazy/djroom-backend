@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>DJ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Open+Sans:wght@300;400&family=PT+Sans+Narrow&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="/common/base.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css"/>
+    <script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/get-video-id/dist/get-video-id.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+<main>
+
+    <section class="content">
+        <label for="inp" class="yt-link">
+            <input type="url" id="inp" placeholder="youtube.com" required>
+            <a class="button" onclick="addNewVideo()">add</a>
+        </label>
+
+        <div id="player"></div>
+    </section>
+
+</main>
+</body>
+</html>
